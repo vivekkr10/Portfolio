@@ -1,0 +1,124 @@
+#project {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  gap: 50px;
+}
+
+#project h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#project #container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Default project card layout (horizontal) for desktop */
+#projectCard {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: rgb(202, 202, 202);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#projectCard img {
+  max-width: 350px;
+  border-radius: 20px;
+}
+
+#projectCard #name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: transparent;
+}
+
+#name h3 {
+  background: transparent;
+  color: black;
+}
+
+#name p {
+  background: transparent;
+  color: black;
+}
+
+#card-btn {
+  background: transparent;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+#card-btn button {
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+#card-btn a {
+  background-color: hsl(128.66deg 85.84% 44.31%);
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/* ✅ Mobile Responsive Style */
+@media (max-width: 768px) {
+  #project {
+    padding: 50px 20px;
+    gap: 30px;
+  }
+
+  #projectCard {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #projectCard img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+  #name {
+    padding: 10px 0;
+  }
+
+  #name h3 {
+    font-size: 20px;
+  }
+
+  #name p {
+    display: none; /* ❌ Hide paragraph on mobile */
+  }
+
+  #card-btn {
+    justify-content: center;
+    /* margin-bottom: 10px; */
+  }
+
+  #card-btn button,
+  #card-btn a {
+    width: 80%;
+    font-size: 14px;
+    /* margin: 10px 0; */
+    text-align: center;
+  }
+}

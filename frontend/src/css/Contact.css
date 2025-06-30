@@ -1,0 +1,105 @@
+/* General Layout */
+#contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 100px;
+  margin: 1rem 0;
+  border-radius: 12px;
+  border-bottom: 2px solid hsl(0deg 0% 12.55%);
+}
+
+#contact-me #container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact-me p:first-child {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+#contact-me p:nth-child(2) {
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Buttons Section */
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+#buttons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#buttons p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#buttons a {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+#buttons a:hover {
+  background-color: #ddd;
+}
+
+/* Location Section */
+#location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#location p:first-child {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+#location p:nth-child(2) {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  #contact-me {
+    padding: 40px 20px;
+  }
+
+  #buttons {
+    gap: 30px;
+  }
+
+  #buttons a {
+    width: 100%;
+    text-align: center;
+  }
+
+  #location {
+    padding: 60px 20px;
+  }
+}

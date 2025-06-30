@@ -1,0 +1,235 @@
+#about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid hsl(0deg 0% 12.55%);
+}
+
+#about-me p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#about-me p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+}
+
+#about-me img {
+  max-width: 250px;
+  border-radius: 50%;
+}
+
+#mission {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid hsl(0deg 0% 12.55%);
+}
+
+#mission img {
+  max-width: 250px;
+}
+
+#mission #container #p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#mission #container p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+}
+
+#tech-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid hsl(0deg 0% 12.55%);
+}
+
+#tech-stack img {
+  max-width: 250px;
+  border-radius: 10%;
+}
+
+#tech-stack #container #p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#tech-stack #container p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#tech-stack #container p:nth-child(3) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#tech-stack #container p:nth-child(4) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#learning {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid hsl(0deg 0% 12.55%);
+}
+
+#learning img {
+  max-width: 250px;
+  border-radius: 10%;
+}
+
+#learning #container #p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#learning #container p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#learning #container p:nth-child(3) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#learning #container p:nth-child(4) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#apart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid hsl(0deg 0% 12.55%);
+}
+
+#apart img {
+  max-width: 250px;
+  border-radius: 10%;
+}
+
+#apart #container #p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#apart #container p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#apart #container p:nth-child(3) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#apart #container p:nth-child(4) {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 715px;
+  margin-bottom: 5px;
+}
+
+#based {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+#based #p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  /* General padding adjustment */
+  #about-me,
+  #mission,
+  #tech-stack,
+  #learning,
+  #apart,
+  #based {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  /* Image on top and smaller */
+  #about-me img,
+  #mission img,
+  #tech-stack img,
+  #learning img,
+  #apart img {
+    order: -1;
+    max-width: 180px;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust paragraph fonts */
+  #about-me p,
+  #mission #container p,
+  #tech-stack #container p,
+  #learning #container p,
+  #apart #container p,
+  #based p {
+    font-size: 14px !important;
+  }
+
+  /* Section title font smaller */
+  #about-me #p,
+  #mission #p,
+  #tech-stack #p,
+  #learning #p,
+  #apart #p,
+  #based #p {
+    font-size: 22px !important;
+  }
+}
