@@ -69,14 +69,17 @@
   width: 140px; /* Fixed width for both */
   text-align: center;
   display: inline-block;
+  cursor: pointer;
 }
 
 #card-btn a {
   border-radius: 11px;
+  cursor: pointer;
 }
 
 #card-btn #open-link {
   background-color: hsl(128.66deg 85.84% 44.31%);
+  cursor: pointer;
 }
 
 /* ✅ Mobile Responsive Style */
