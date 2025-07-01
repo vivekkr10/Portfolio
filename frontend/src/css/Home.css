@@ -34,63 +34,12 @@ p {
   color: hsl(0deg 0% 85.49%);
 }
 
-/* ========== Nav bar ========== */
-
-#nav-bar {
-  display: flex;
-  width: 100%;
-  position: sticky;
-  top: 0;
-}
-
-#nav-bar #container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 10px 50px;
-  background-color: hsl(0deg 0% 19.61%);
-}
-
-#nav-bar p {
-  max-width: 100px;
-  font-size: 20px;
-  font-weight: 500;
-  color: hsl(0deg 0% 85.49%);
-  background-color: hsl(0deg 0% 19.61%);
-}
-
-#nav-bar a {
-  background-color: hsl(0deg 0% 19.61%);
-}
-
-#nav-bar-btns {
-  background-color: hsl(0deg 0% 19.61%);
-  display: flex;
-  gap: 20px;
-}
-
-#nav-bar-btns button {
-  background-color: #ffffff;
-  padding: 10px;
-  border: none;
-  outline: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-#nav-bar-btns button:nth-child(5) {
-  background-color: hsl(128.66deg 85.84% 44.31%);
-  padding: 10px 25px;
-  color: #ffffff;
-}
 
 /* ========== Hero ========== */
 
 #hero {
   display: flex;
-  padding: 50px 50px 0 50px;
+  padding: 100px 50px 0 50px;
 }
 
 #hero #container {

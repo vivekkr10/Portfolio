@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Projects.css";
 import calculator from "../images/calculator.png";
-import exelroofing from "../images/exelroofing.png";
+import exelroofing from "../images/exellroofing.png";
 import magnet from "../images/magnet.png";
 import mangahub from "../images/mangahub.png";
 import noteshare from "../images/noteshare.png";
@@ -32,7 +32,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open link
+                  <button id="open-link">Open link</button>
                 </a>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                 clean UI.
               </p>
               <div id="card-btn">
-                <NavLink style={{ background: "transparent" }}>
+                <NavLink to="/weatherApp" style={{ background: "transparent" }}>
                   <button>Read more</button>
                 </NavLink>
                 <a
@@ -55,7 +55,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open link
+                  <button id="open-link">Open link</button>
                 </a>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                 anime-styled UI.
               </p>
               <div id="card-btn">
-                <NavLink style={{ background: "transparent" }}>
+                <NavLink to="/mangaHub" style={{ background: "transparent" }}>
                   <button>Read more</button>
                 </NavLink>
                 <a
@@ -79,7 +79,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open link
+                  <button id="open-link">Open link</button>
                 </a>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Projects = () => {
                 mobile-friendly UI.
               </p>
               <div id="card-btn">
-                <NavLink style={{ background: "transparent" }}>
+                <NavLink to="/calculator" style={{ background: "transparent" }}>
                   <button>Read more</button>
                 </NavLink>
                 <a
@@ -103,7 +103,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open link
+                  <button id="open-link">Open link</button>
                 </a>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Projects = () => {
                 contact CTA.
               </p>
               <div id="card-btn">
-                <NavLink style={{ background: "transparent" }}>
+                <NavLink to="/exellroofing" style={{ background: "transparent" }}>
                   <button>Read more</button>
                 </NavLink>
                 <a
@@ -127,7 +127,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open link
+                  <button id="open-link">Open link</button>
                 </a>
               </div>
             </div>
@@ -143,7 +143,7 @@ const Projects = () => {
                 fast-loading.
               </p>
               <div id="card-btn">
-                <NavLink style={{ background: "transparent" }}>
+                <NavLink to="/magnet" style={{ background: "transparent" }}>
                   <button>Read more</button>
                 </NavLink>
                 <a
@@ -151,7 +151,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open link
+                  <button id="open-link">Open link</button>
                 </a>
               </div>
             </div>

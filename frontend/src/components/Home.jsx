@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Home.css";
 import vivek from "../images/vivek.jpeg";
 import calculator from "../images/calculator.png";
-import exelroofing from "../images/exelroofing.png";
+import exelroofing from "../images/exellroofing.png";
 // import magnet from "../images/magnet.png";
 import mangahub from "../images/mangahub.png";
 import noteshare from "../images/noteshare.png";
@@ -113,25 +113,35 @@ const Home = () => {
           <div id="project-card">
             <img src={weather} alt="" />
             <h3>Weather App</h3>
-            <button>Read more</button>
+            <NavLink style={{ background: "transparent" }} to="/weatherApp">
+              <button>Read more</button>
+            </NavLink>
           </div>
           <div id="project-card">
             <img src={mangahub} alt="" />
             <h3>MangaHub Landing page</h3>
-            <button>Read more</button>
+            <NavLink style={{ background: "transparent" }} to="/mangaHub">
+              <button>Read more</button>
+            </NavLink>
           </div>
           <div id="project-card">
             <img src={calculator} alt="" />
             <h3>Simple Calculator</h3>
-            <button>Read more</button>
+            <NavLink style={{ background: "transparent" }} to="/calculator">
+              <button>Read more</button>
+            </NavLink>
           </div>
           <div id="project-card">
             <img src={exelroofing} alt="" />
             <h3>Exallroofing Landing page</h3>
+            <NavLink style={{ background: "transparent" }} to="/exellroofing">
             <button>Read more</button>
+            </NavLink>
           </div>
           <div id="project-card">
+            <NavLink style={{ background: "transparent" }} to="/projects">
             <button id="view-project">View all projects</button>
+            </NavLink>
           </div>
         </div>
       </section>
@@ -157,12 +167,22 @@ const Home = () => {
             <div id="follow">
               <h3>Follow me</h3>
               <p>
-              <a href="https://www.linkedin.com/in/vivek-kumar-3b879b2b9/" target="_blank" rel="noopener noreferrer">
-                LinkedIn
+                <a
+                  href="https://www.linkedin.com/in/vivek-kumar-3b879b2b9/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
                 </a>
               </p>
               <p>
-              <a href="https://github.com/vivekkr10" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a
+                  href="https://github.com/vivekkr10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
               </p>
             </div>
           </div>

@@ -58,25 +58,25 @@
 }
 
 #card-btn button {
-  text-decoration: none;
+  background-color: #000000;
   color: #ffffff;
+  text-decoration: none;
   border: none;
   outline: none;
-  padding: 10px;
-  background-color: #000000;
+  padding: 10px 0;
   border-radius: 10px;
   font-size: 15px;
+  width: 140px; /* Fixed width for both */
+  text-align: center;
+  display: inline-block;
 }
 
 #card-btn a {
+  border-radius: 11px;
+}
+
+#card-btn #open-link {
   background-color: hsl(128.66deg 85.84% 44.31%);
-  text-decoration: none;
-  color: #ffffff;
-  border: none;
-  outline: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 15px;
 }
 
 /* ✅ Mobile Responsive Style */
