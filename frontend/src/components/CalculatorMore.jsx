@@ -6,18 +6,26 @@ const CalculatorMore = () => {
   return (
     <div>
       <section id="noteShareMore">
-        <img src={calculator} alt="Simple Calculator" />
+        <a
+          href="https://noteshare1.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={calculator} alt="Simple Calculator link" />
+        </a>
+
         <div id="container">
           <h1>🧮 Simple Calculator – Project Overview</h1>
           <p>
             The Simple Calculator is a beginner-friendly project built using
-            HTML, CSS, and JavaScript. It allows users to perform basic arithmetic
-            operations such as addition, subtraction, multiplication, and division.
+            HTML, CSS, and JavaScript. It allows users to perform basic
+            arithmetic operations such as addition, subtraction, multiplication,
+            and division.
           </p>
           <p>
             This project focuses on DOM manipulation, real-time user input, and
-            clean UI design. It helps users understand how interactive components
-            work in a frontend web environment.
+            clean UI design. It helps users understand how interactive
+            components work in a frontend web environment.
           </p>
 
           <h2>🔍 Key Features:</h2>
@@ -33,8 +41,8 @@ const CalculatorMore = () => {
           </p>
           <h3>🎯 Real-time Display</h3>
           <p>
-            Shows typed input and displays the result after calculation immediately
-            below the screen.
+            Shows typed input and displays the result after calculation
+            immediately below the screen.
           </p>
           <h3>💡 Clean UI</h3>
           <p>

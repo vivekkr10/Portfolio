@@ -6,7 +6,14 @@ const ExallroofingMore = () => {
   return (
     <div>
       <section id="noteShareMore">
-        <img src={exellroofing} alt="Exallroofing Landing Page" />
+        <a
+          href="https://noteshare1.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={exellroofing} alt="Exallroofing Landing Page link" />
+        </a>
+
         <div id="container">
           <h1>🏠 Exallroofing – Landing Page Overview</h1>
           <p>

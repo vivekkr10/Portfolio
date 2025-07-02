@@ -6,7 +6,13 @@ const NoteShareMore = () => {
   return (
     <div>
       <section id="noteShareMore">
-        <img src={noteshare} alt="" />
+        <a
+          href="https://noteshare1.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={noteshare} alt="Noteshare link" />
+        </a>
         <div id="container">
           <h1>✅ NoteShare – Platform Overview</h1>
           <p>

@@ -1,35 +1,44 @@
-import React from 'react'
-import weather from '../images/weather.png'
+import React from "react";
+import weather from "../images/weather.png";
 
 const WeatherAppMore = () => {
   return (
     <div>
       <section id="noteShareMore">
-        <img src={weather} alt="Weather App Screenshot" />
+        <a
+          href="https://cloudwink.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={weather} alt="Weather App link" />
+        </a>
+
         <div id="container">
           <h1>⛅ Weather App – Project Overview</h1>
           <p>
-            The Weather App is a responsive web application that delivers real-time
-            weather updates for cities across the globe. It fetches accurate data
-            like temperature, weather condition, humidity, and wind speed from the
-            OpenWeatherMap API and displays it with a clean, modern user interface.
+            The Weather App is a responsive web application that delivers
+            real-time weather updates for cities across the globe. It fetches
+            accurate data like temperature, weather condition, humidity, and
+            wind speed from the OpenWeatherMap API and displays it with a clean,
+            modern user interface.
           </p>
           <p>
-            Designed with usability and performance in mind, the app allows users to
-            quickly search for any city and get up-to-date weather info. It's fully
-            responsive, making it easy to use on both desktop and mobile devices.
+            Designed with usability and performance in mind, the app allows
+            users to quickly search for any city and get up-to-date weather
+            info. It's fully responsive, making it easy to use on both desktop
+            and mobile devices.
           </p>
 
           <h2>🔍 Key Features:</h2>
           <h3>🌍 Global Weather Search</h3>
           <p>
-            Users can type any city name to get the current weather details instantly,
-            thanks to OpenWeatherMap API integration.
+            Users can type any city name to get the current weather details
+            instantly, thanks to OpenWeatherMap API integration.
           </p>
           <h3>📱 Mobile-First Design</h3>
           <p>
-            Built with responsive design in mind to offer a seamless experience across
-            all screen sizes.
+            Built with responsive design in mind to offer a seamless experience
+            across all screen sizes.
           </p>
           <h3>🌡️ Detailed Forecast Data</h3>
           <p>
@@ -38,8 +47,8 @@ const WeatherAppMore = () => {
           </p>
           <h3>⚡ Fast and Lightweight</h3>
           <p>
-            Optimized with clean JavaScript and CSS for fast performance and quick
-            API responses.
+            Optimized with clean JavaScript and CSS for fast performance and
+            quick API responses.
           </p>
 
           <h2>🔧 Tech Stack:</h2>
@@ -91,7 +100,7 @@ const WeatherAppMore = () => {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default WeatherAppMore
+export default WeatherAppMore;

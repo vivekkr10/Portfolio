@@ -6,37 +6,47 @@ const MagnetMore = () => {
   return (
     <div>
       <section id="noteShareMore">
-        <img src={magnet} alt="Magnet Landing Page Screenshot" />
+        <a
+          href="https://noteshare1.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={magnet} alt="Magnet Landing Page link" />
+        </a>
         <div id="container">
           <h1>🧲 Magnet – Landing Page Overview</h1>
           <p>
-            The Magnet Landing Page is a sleek and modern product showcase designed to highlight a
-            futuristic magnetic device. Its bold visuals and striking layout instantly catch the
-            viewer’s attention and encourage interaction.
+            The Magnet Landing Page is a sleek and modern product showcase
+            designed to highlight a futuristic magnetic device. Its bold visuals
+            and striking layout instantly catch the viewer’s attention and
+            encourage interaction.
           </p>
           <p>
-            It is fully responsive and optimized for fast performance, featuring prominent CTAs and
-            sections like pricing, features, testimonials, and login/register links for user
-            engagement.
+            It is fully responsive and optimized for fast performance, featuring
+            prominent CTAs and sections like pricing, features, testimonials,
+            and login/register links for user engagement.
           </p>
 
           <h2>🔍 Key Features:</h2>
           <h3>✨ Futuristic Product Focus</h3>
           <p>
-            Hero section emphasizes the product with bold typography and striking visuals to drive
-            conversions.
+            Hero section emphasizes the product with bold typography and
+            striking visuals to drive conversions.
           </p>
           <h3>📱 Mobile-Friendly Design</h3>
           <p>
-            Smooth experience across all devices with responsive layout and flexible content blocks.
+            Smooth experience across all devices with responsive layout and
+            flexible content blocks.
           </p>
           <h3>🚀 Fast Loading & SEO Friendly</h3>
           <p>
-            Built using lightweight HTML and CSS for quick load time and better search visibility.
+            Built using lightweight HTML and CSS for quick load time and better
+            search visibility.
           </p>
           <h3>🧩 Reusable UI Sections</h3>
           <p>
-            Includes pricing, about, FAQ, and testimonials — all modular and easy to customize.
+            Includes pricing, about, FAQ, and testimonials — all modular and
+            easy to customize.
           </p>
 
           <h2>🔧 Tech Stack:</h2>
