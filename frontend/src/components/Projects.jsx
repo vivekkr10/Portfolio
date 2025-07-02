@@ -51,7 +51,7 @@ const Projects = () => {
                   <button>Read more</button>
                 </NavLink>
                 <a
-                  href="https://your-weather-app-link.netlify.app/"
+                  href="https://cloudwink.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -75,7 +75,7 @@ const Projects = () => {
                   <button>Read more</button>
                 </NavLink>
                 <a
-                  href="https://your-mangahub-link.netlify.app/"
+                  href="https://mangahub123.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -123,7 +123,7 @@ const Projects = () => {
                   <button>Read more</button>
                 </NavLink>
                 <a
-                  href="https://your-exelroofing-link.netlify.app/"
+                  href="https://exallroofing.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
