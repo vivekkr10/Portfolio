@@ -104,37 +104,37 @@ const Home = () => {
         <p>Featured Projects</p>
         <div id="container">
           <div id="project-card">
+            <NavLink style={{ background: "transparent" }} to="/noteShare">
             <img src={noteshare} alt="" />
             <h3>Noteshare</h3>
-            <NavLink style={{ background: "transparent" }} to="/noteShare">
               <button>Read more</button>
             </NavLink>
           </div>
           <div id="project-card">
+            <NavLink style={{ background: "transparent" }} to="/weatherApp">
             <img src={weather} alt="" />
             <h3>Weather App</h3>
-            <NavLink style={{ background: "transparent" }} to="/weatherApp">
               <button>Read more</button>
             </NavLink>
           </div>
           <div id="project-card">
+            <NavLink style={{ background: "transparent" }} to="/mangaHub">
             <img src={mangahub} alt="" />
             <h3>MangaHub Landing page</h3>
-            <NavLink style={{ background: "transparent" }} to="/mangaHub">
               <button>Read more</button>
             </NavLink>
           </div>
           <div id="project-card">
+            <NavLink style={{ background: "transparent" }} to="/calculator">
             <img src={calculator} alt="" />
             <h3>Simple Calculator</h3>
-            <NavLink style={{ background: "transparent" }} to="/calculator">
               <button>Read more</button>
             </NavLink>
           </div>
           <div id="project-card">
+            <NavLink style={{ background: "transparent" }} to="/exellroofing">
             <img src={exelroofing} alt="" />
             <h3>Exallroofing Landing page</h3>
-            <NavLink style={{ background: "transparent" }} to="/exellroofing">
             <button>Read more</button>
             </NavLink>
           </div>
