@@ -7,7 +7,7 @@ const ExallroofingMore = () => {
     <div>
       <section id="noteShareMore">
         <a
-          href="https://noteshare1.netlify.app/"
+          href="https://exallroofing.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >

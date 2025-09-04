@@ -7,7 +7,7 @@ const CalculatorMore = () => {
     <div>
       <section id="noteShareMore">
         <a
-          href="https://noteshare1.netlify.app/"
+          href="https://webcalculator123.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
